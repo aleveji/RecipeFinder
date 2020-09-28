@@ -5,6 +5,9 @@ Proyecto IV
 Este proyecto está pensado para buscar las mejores recetas
 con los ingredientes que tengamos disponibles en casa.
 
+## Herramientas
+- Lenguaje: JavaScript
+
 ## Configuración
 - [Configuración de git](https://github.com/aleveji/RecipeFinder/blob/master/docs/git_config.md)
 - [Configuración de claves](https://github.com/aleveji/RecipeFinder/blob/master/docs/keys_config.md)
