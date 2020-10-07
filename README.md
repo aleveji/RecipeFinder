@@ -6,7 +6,12 @@ Este proyecto está pensado para buscar las mejores recetas
 con los ingredientes que tengamos disponibles en casa.
 
 ## Herramientas
-- Lenguaje: JavaScript
+- JavaScript
+- Node.js
+- MySQL
+
+## Historias de usuarios
+- [HU1](https://github.com/aleveji/RecipeFinder/issues/1)
 
 ## Configuración
 - [Configuración de git](https://github.com/aleveji/RecipeFinder/blob/master/docs/git_config.md)
