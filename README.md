@@ -13,6 +13,9 @@ con los ingredientes que tengamos disponibles en casa.
 ## Historias de usuarios
 - [HU1](https://github.com/aleveji/RecipeFinder/issues/1)
 
+## Código fuente
+- [receta.js](https://github.com/aleveji/RecipeFinder/blob/master/src/receta.js)
+
 ## Configuración
 - [Configuración de git](https://github.com/aleveji/RecipeFinder/blob/master/docs/git_config.md)
 - [Configuración de claves](https://github.com/aleveji/RecipeFinder/blob/master/docs/keys_config.md)
