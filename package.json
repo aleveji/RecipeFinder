@@ -1,0 +1,26 @@
+{
+  "name": "recipefinder",
+  "version": "1.0.0",
+  "description": "Este proyecto esta pensado para buscar las mejores recetas con los ingredientes que tengamos disponibles en casa",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleveji/RecipeFinder.git"
+  },
+  "author": "aleveji",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aleveji/RecipeFinder/issues"
+  },
+  "homepage": "https://github.com/aleveji/RecipeFinder#readme",
+  "dependencies": {
+    "mocha": "^8.2.0"
+  }
+}
