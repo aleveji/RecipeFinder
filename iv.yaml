@@ -1,1 +1,4 @@
 entidad: src/receta.js
+lenguaje: JavaScript
+test: test/test.js
+taskfile: Makefile
