@@ -32,10 +32,8 @@ Para realizar los test he elegido _mocha_ ya que es sencillo de utilizar y adem�
 Como herramienta de construcción he elegido _make_ ya que al ser una de las más populares cuenta con una gran documentación y además es universal.
 El [Makefile](https://github.com/aleveji/RecipeFinder/blob/master/Makefile) se encuentra en el directorio raíz.
 ### Pasos a seguir para la ejecución de los test
-- Una vez descargado el repo e instalado Node.js:
-    _make install_ para la instalación
-- Tras la instalación:
-    _make run-test_ para la ejecución
+- Una vez descargado el repo e instalado Node.js: _**make install**_ para la instalación
+- Tras la instalación: _**make run-test**_ para la ejecución
 
 ## Código fuente
 - [receta.js](https://github.com/aleveji/RecipeFinder/blob/master/src/receta.js)
