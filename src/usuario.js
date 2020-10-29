@@ -1,5 +1,4 @@
-require('receta.js');
-require('comentario.js');
+var comentario = require('./comentario');
 
 class Usuario {
     idsRecFav = []; //ids recetas favoritas
@@ -11,36 +10,40 @@ class Usuario {
         this.mail = mail; //correo electronico
     }
 
-    get id() {
+    getId() {
         return this.id;
     }
 
-    set id(newId){
+    setId(newId){
         this.id = newId;
     }
 
-    get nombre() {
+    getNombre() {
         return this.nombre;
     }
 
-    set nombre(newNombre){
+    setNombre(newNombre){
         this.nombre = newNombre;
     }
 
-    get apodo() {
+    getApodo() {
         return this.apodo;
     }
 
-    set apodo(newApodo) {
+    setApodo(newApodo) {
         this.apodo = newApodo;
     }
 
-    get mail() {
+    getMail() {
         return this.mail;
     }
     
-    set mail(newMail) {
+    setMail(newMail) {
         this.mail = newMail;
+    }
+
+    getIdsRecFav() {
+        return this.idsRecFav;
     }
     
     anadirRecetaFavorita(idReceta) { //metodo para marcar una receta como favorita
@@ -48,6 +51,12 @@ class Usuario {
     }
     
     comentarReceta(idReceta, coment){ //metodo para anadir un comentario a una receta
-        new Comentario(this.id, idReceta, coment);
+        return new comentario.Comentario(this.id, idReceta, coment);
+    }
+
+    aString() {
+        return "Usuario " + this.id + " [Nombre: " + this.nombre + ", Apodo: " + this.apodo + ", Mail: " + this.mail + "]";
     }
 }
+
+module.exports.Usuario = Usuario;

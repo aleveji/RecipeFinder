@@ -5,27 +5,33 @@ class Comentario {
         this.coment = coment; //comentario
     }
 
-    get idUsuario() {
+    getIdUsuario() {
         return this.idUsuario;
     }
 
-    set idUsuario(newIdUsuario) {
+    setIdUsuario(newIdUsuario) {
         this.idUsuario = newIdUsuario;
     }
 
-    get idReceta() {
+    getIdReceta() {
         return this.idReceta;
     }
 
-    set idReceta(newIdReceta) {
+    setIdReceta(newIdReceta) {
         this.idReceta = newIdReceta;
     }
 
-    get coment() {
+    getComent() {
         return this.coment;
     }
 
-    set coment(newComent) {
+    setComent(newComent) {
         this.coment = newComent;
     }
+
+    aString() {
+        return "Comentario [Id. usuario: " + this.idUsuario + ", Id. Receta: " + this.idReceta + ", Texto coment: " + this.coment + "]";
+    }
 }
+
+module.exports.Comentario = Comentario;

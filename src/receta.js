@@ -10,64 +10,71 @@ class Receta {
         this.prep = prep; //preparacion
     }
     
-    get id() {
+    getId() {
         return this.id;
     }
 
-    set id(newId){
+    setId(newId){
         this.id = newId;
     }
 
-    get titulo() {
+    getTitulo() {
         return this.titulo;
     }
 
-    set titulo(newTitulo){
+    setTitulo(newTitulo){
         this.titulo = newTitulo;
     }
 
-    get descr() {
+    getDescr() {
         return this.descr;
     }
 
-    set descr(newDescr){
+    setDescr(newDescr){
         this.descr = newDescr;
     }
 
-    get ingr() {
+    getIngr() {
         return this.ingr;
     }
 
-    set ingr(newIngr){
+    setIngr(newIngr){
         this.ingr = newIngr;
     }
 
-    get prep() {
+    getPrep() {
         return this.prep;
     }
 
-    set prep(newPrep){
+    setPrep(newPrep){
         this.prep = newPrep;
     }
 
-    get nota() {
+    getNota() {
         return this.nota;
     }
 
-    set nota(newNota){
+    setNota(newNota){
         this.nota = newNota;
     }
 
     notaMedia() {
-        suma = 0;
-        for (x in notas) {
-            suma += x;
+        var suma = 0;
+        for (let i=0; i<this.notas.length; i++) {
+            suma += this.notas[i];
         }
-        nota(suma/this.notas.length);
+        this.nota = (suma/this.notas.length);
     }
 
     valorarReceta(newNota) { //metodo para valorar una receta
         this.notas.push(newNota);
-        notaMedia();
+        this.notaMedia();
+    }
+
+    aString() {
+        return "Receta " + this.id + " [Titulo: " + this.titulo + ", Descrip: " + this.descr +
+               ", Ingr: (" + this.ingr + "), Prep: " + this.prep + ", Nota media: " + this.nota + "]";
     }
 }
+
+module.exports.Receta = Receta;
