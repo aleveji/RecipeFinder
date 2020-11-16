@@ -1,9 +1,8 @@
 FROM node:12.18.4-slim
 
+COPY Makefile ./
 COPY package*.json ./
 
-RUN npm install
+RUN make install
 
-RUN rm ./package*.json
-
-CMD [ "npm", "test" ]
+CMD [ "make", "run-test" ]
