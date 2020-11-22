@@ -35,6 +35,11 @@ El [Makefile](https://github.com/aleveji/RecipeFinder/blob/master/Makefile) se e
 - Una vez descargado el repo e instalado Node.js: _**make install**_ para la instalación
 - Tras la instalación: _**make run-test**_ para la ejecución
 
+## Docker
+- [Dockerfile](https://github.com/aleveji/RecipeFinder/blob/master/Dockerfile)
+- [Justificación de elección de imagen base]()
+- [Configuración de actualización automática]()
+
 ## Código fuente
 - [receta.js](https://github.com/aleveji/RecipeFinder/blob/master/src/receta.js)
 - [usuario.js](https://github.com/aleveji/RecipeFinder/blob/master/src/usuario.js)
