@@ -37,8 +37,8 @@ El [Makefile](https://github.com/aleveji/RecipeFinder/blob/master/Makefile) se e
 
 ## Docker
 - [Dockerfile](https://github.com/aleveji/RecipeFinder/blob/master/Dockerfile)
-- [Justificación de elección de imagen base]()
-- [Configuración de actualización automática]()
+- [Justificación de elección de imagen base](https://github.com/aleveji/RecipeFinder/blob/master/docs/node_base_image.md)
+- [Configuración de actualización automática](https://github.com/aleveji/RecipeFinder/blob/master/docs/docker_auto_update.md)
 
 ## Código fuente
 - [receta.js](https://github.com/aleveji/RecipeFinder/blob/master/src/receta.js)
